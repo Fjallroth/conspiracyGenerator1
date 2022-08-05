@@ -32,6 +32,6 @@ app.get('/api/', (request, response) =>{
     response.json(`${actors[Math.floor(Math.random()*actors.length)]} ${acts[Math.floor(Math.random()*acts.length)]}`)
 
 })
-app.listen(process.env.PORT || PORT, ()=>{
-    console.log(`Listening on port ${PORT}`)
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Server running on port ${PORT}`)
 })
