@@ -24,6 +24,7 @@ let acts =[
     'admits that birds are not real',
 ]
 app.use(cors())
+app.use(express.static('.'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
