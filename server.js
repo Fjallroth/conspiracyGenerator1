@@ -24,6 +24,8 @@ let acts =[
     'admits that birds are not real',
 ]
 app.use(cors())
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 
 app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/clientSideCode/index.html')
