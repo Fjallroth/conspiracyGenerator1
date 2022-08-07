@@ -14,7 +14,6 @@ let actors =[
     'Barack Obama',
     'Tom Cruise',
     'Boris Johnson',
-    'Sebastian Kurz',
     'Mel Gibson',
     'Megan Markle',
     'Price Charles',
@@ -26,7 +25,7 @@ let actors =[
     'David Cameron',
     'Vladamir Putin',
     'Bill Clinton',
-    'The Clinton FOundation',
+    'The Clinton Foundation',
     'Bill Gates',
     'Arnold Schwarzenegger',
     'Steve Jobs',
@@ -34,14 +33,13 @@ let actors =[
     'The Koch Brothers',
     'Elon Musk',
     'George Soros',
+    'Tupac'
 
 ]
 let acts =[
     'faked the moon landing',
-    'did 9/11',
     'releases new evidence proving the earth is flat',
     'is the secret 5th Beetle',
-    'assassinated JFK',
     'claims the Roswell saucer is not of this earth',
     'has new evidence that chemtrails are indeed used to control minds',
     'admits that birds are not real',
@@ -59,9 +57,12 @@ let acts =[
     'states that healing crystals are a threat to big pharma',
     'sells homeopathic remedies made of human sweat',
     'admits that witchcraft is indeed behind magnets',
-    'is not entirely sure how electricity works and if it can be trusted',
-    'is caught on tape admiting that jugglers are Russian spies',
+    'is caught on tape admitting that jugglers are Russian spies',
     'states that the Panama papers were a distraction from yet another illegitimate child of Boris Johnson',
+    'leaks information that suggests that wrestling is fake',
+    'claims to have photographic evidence that bigfoot is real, but its feet are small',
+    'questions the existence of Finland "there is no reason to believe that such a place exists"',
+    'finances secret Loch Ness Monster research',
 ]
 app.use(cors())
 app.use(express.static('.'))
